@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background: #1f202b;
+}
+
+.full-width h2 {
+    font-family:'Source Code Pro', monospace;
+    color: #fa0075;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.1em;
+    line-height: 0.1em;
+    padding-top: 30px;
+}
+/**LAYOUT**/
+#intro {
+    height: 800px;
+}
+
+#work {
+    height: 1150px;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+.full-width {
+    width: 1200px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.half-width img {
+    width: 550px;
+    height: 350px;
+    margin: 10px;
+    border: 1px solid #b7b7b7;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.whole-width {
+    width: 1400px;
+    margin: 0;
+}
+
+.whole-half {
+    width: 700px;
+    float: left;
+}
+
+#intro .half-width {
+    clear: both;
+}
+
+/**HEADER**/
+#navbar{
+    font-size: 30px;
+    height: 90px;
+
+}
+
+nav {
+    float: right;
+}
+
+div nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+/**INTRO**/
+#intro {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20pt;
+    padding-top: 400px;
+    letter-spacing: 0.4em;
+    background: url('../img/hero-background.png') no-repeat;
+    background-size: cover;
+}
+
+#intro h1 span {
+    color: #fa0075;
+}
+
+/**WORK**/
+#work .half-width {
+    height: 350px;
+    box-sizing: border-box;
+    padding: 40px 0;
+    font-size: 20px;
+}
+
+/**ABOUT**/
+#about {
+    background: url('../img/about-me.png') no-repeat;
+    background-size: cover;
+    color: #1f202b;
+    font-size: 20px;
+}
+
+#about .half-width {
+    padding-top: 80px;
+}
+
+/**CONTACT**/
+#contact {
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact .third-width {
+    padding-top: 40px;
+}
+
+.third-width ul li {
+    display: inline-block;
+}
+
+.third-width ul li a {
+    text-decoration: none;
+
+}
+
+.third-width ul li a img {
+    filter: invert(0);
+    margin: 2px 25px;
+}
+
+/**FOOTER**/
+footer {
+    text-align: center;
+}
